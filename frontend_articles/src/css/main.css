@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333;
+    color: #ffff;
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.header{
+    background-color: #000;
+    padding: 30px;
+}
+
+
+main {
+    margin: 50px 100px;
+    width: 50%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+}
+
+main .article{
+    margin-bottom: 50px;
+    background-color: rgba(75, 63, 75, 0.476);
+    padding: 20px;
+}
+
+main .delete-icon{
+    float: right;
+    color: #134b57;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .edit-icon{
+    float: right;
+    margin-right: 25px;
+    color: #165664;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .comment-icon{
+    float: right;
+    margin-right: 25px;
+    color: #165664;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .delete-icon:hover,
+main .edit-icon:hover,
+main .comment-icon:hover
+{
+    opacity: 0.5;
+}
+
+form input:not([type="checkbox"]),
+form textarea,
+form button{
+    width: 90%;
+    padding: 15px 5%;
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    background: #222;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+
+form button{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.headerButton{
+    width: 20%;
+    padding: 15px 5%;
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    background: #222;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.authButton{
+    padding: 5px 2%;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+    background: #222;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+.headerButton:hover{
+    transform: scale(1.1);
+}
+
+.authButton:hover{
+    transform: scale(1.1);
+}
+
+form button:hover{
+    transform: scale(1.1);
+}
+
+.article form{
+    margin-top: 20px;
+}
+
+.article form input,
+.article form textarea,
+.article form button{
+    background: #1c190ad9;
+}
+
+.articleImage{
+    width: 50%;
+}
+
+.articleTitle{
+    margin-bottom: 10px;
+}
+.category{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.author{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.description{
+    margin-bottom: 10px;
+}
